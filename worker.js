@@ -17,7 +17,7 @@ self.addEventListener('fetch', event => {
       const fetchResponse = await fetch(event.request);
 
       // Save the resource in the cache.
-      cache.put(event.request, fetchResponse.clone());
+      // cache.put(event.request, fetchResponse.clone());
 
       // And return it.
       return fetchResponse;
