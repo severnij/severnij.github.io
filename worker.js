@@ -8,7 +8,7 @@ self.addEventListener('install', (e) => {
     // await cache.addAll(contentToCache);
   })());
 });
-/*
+
 self.addEventListener('fetch', (e) => {
   e.respondWith((async () => {
     const r = await caches.match(e.request);
@@ -21,4 +21,3 @@ self.addEventListener('fetch', (e) => {
     return response;
   })());
 });
-*/
